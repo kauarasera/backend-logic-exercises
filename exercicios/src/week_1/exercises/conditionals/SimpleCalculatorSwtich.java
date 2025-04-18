@@ -27,9 +27,9 @@ public class SimpleCalculatorSwtich {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro numero: ");
-        double primeiroNUmero = scanner.nextInt();
+        double primeiroNUmero = scanner.nextDouble();
         System.out.println("Digite o segundo numero: ");
-        double segundoNumero = scanner.nextInt();
+        double segundoNumero = scanner.nextDouble();
         System.out.println("Digite a operação (+ - * /): ");
         char operacao = scanner.next().charAt(0);
 
@@ -46,7 +46,7 @@ public class SimpleCalculatorSwtich {
                 resultado = primeiroNUmero * segundoNumero;
                 System.out.printf("Resultado multiplicacao: %.2f%n", resultado);
             case '/':
-                if (resultado != 0) {
+                if (segundoNumero != 0) {
                     resultado = primeiroNUmero / segundoNumero;
                     System.out.printf("Resultado: %.2f%n", resultado);
                 } else {

@@ -6,24 +6,21 @@ import java.util.Scanner;
  1. O que preciso fazer? -> Receber dois números e uma operação ( +, -, *, /)
     e calcular o resultado conforme a operação escolhida.
 
+ 2. Que tipo de dados estou lidando? -> double e char
 
-    saida esperada:
-    Digite sua idade: 17
-    Você é menor de idade.
-
- 2. Que tipo de dados estou lidando? -> int e double
  3. Ferramentas que vamos usar no Java:
     Scanner para ler a entrada do usuário
-    Variáveis do tipo double e boolean
-    Operaçao condicional
-    System.out.printf()ara formatar com 2 casa decimal
+    Variáveis do tipo double e char
+    Operaçao if/else, switch
+    System.out.printf() para formatar com 2 casa decimal
 
-  4. Passos em pseudocódigo
-    1- CriarScanner
-    2- Exibir mensagem solicitando a idade
-    3- Ler o valor digitado
-    4- Operaçao condicional
-    5- Exibir o resultado final das operacoes.
+  4.Passos em pseudocódigo:
+    Criar oScanner
+    Ler os dois números (double)
+    Ler a operação (char)
+    Usar switch para executar a operação
+    Exibir ou resultado comSystem.out.printf()
+    Tratar operação inválida (padrão)
  */
 public class SimpleCalculatorSwtich {
     public static void main(String[] args) {

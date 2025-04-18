@@ -31,20 +31,20 @@ public class SimpleCalculatorSwtich {
         System.out.println("Digite o segundo numero: ");
         double segundoNumero = scanner.nextInt();
         System.out.println("Digite a operação (+ - * /): ");
-        char operacao = scanner.findInLine();
+        char operacao = scanner.next().charAt(0);
 
         double resultado = 0;
 
         switch (operacao) {
             case '+':
                 resultado = primeiroNUmero + segundoNumero;
-                System.out.printf("Resultado: %.2f%n", resultado);
+                System.out.printf("Resultado soma: %.2f%n", resultado);
             case '-':
                 resultado = primeiroNUmero - segundoNumero;
-                System.out.printf("Resultado: %.2f%n", resultado);
+                System.out.printf("Resultado subtracao: %.2f%n", resultado);
             case '*':
                 resultado = primeiroNUmero * segundoNumero;
-                System.out.printf("Resultado: %.2f%n", resultado);
+                System.out.printf("Resultado multiplicacao: %.2f%n", resultado);
             case '/':
                 if (resultado != 0) {
                     resultado = primeiroNUmero / segundoNumero;
@@ -57,5 +57,6 @@ public class SimpleCalculatorSwtich {
             default:
                 System.out.println("Operação inválida.");
         }
+        scanner.close();
     }
 }

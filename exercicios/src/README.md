@@ -34,6 +34,18 @@ Each week brings more structured code, clean practices and meaningful examples.
 
 ---
 
+## 📘 Meu Roteiro de Aprendizado
+
+> 🎯 Estudo por blocos temáticos, com foco em fundamentos e progressão contínua.  
+👉 [🚀 learning-roadmap.md](./learning-roadmap.md)
+
+--- 
+## 📘 Meu mapa de raciocínio
+
+> Como eu penso, estruturo e resolvo problemas na prática:  
+👉 [Developer Thinking Checklist (dev-checklist.md)](./dev-checklist.md)
+> 
+---
 ## 🛠 Technologies
 
 - Java

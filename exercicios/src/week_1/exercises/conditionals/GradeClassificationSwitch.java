@@ -39,6 +39,7 @@ public class GradeClassificationSwitch {
                 case 10, 9 -> System.out.println("Classificação: A ");
                 case 8, 7 -> System.out.println("Classificação: B ");
                 case 6, 5 -> System.out.println("Classificação: C ");
+                default -> System.out.println("Classificação: D");
             }
         }
         scanner.close();

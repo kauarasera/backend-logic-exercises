@@ -3,43 +3,16 @@ package week_1.exercises.mini_projects;
 import java.util.Scanner;
 
 /*
- 1. O que preciso fazer? — >
- criar uma aplicação Java simples de console que:
-    Pergunte o nome, a idade e o país do usuário.
-    Utilize condicionais (if-else) e um switch para validar as informações inseridas.
-    Utilize algum méto-do interno (como String.isBlank() ou String.length()) para validação adicional.
+ Create user registration validator using conditionals and switch
 
- Regras para validação (especificações do exercício):
-    Nome não pode estar vazio ou só espaços (String.isBlank()).
-    Idade deve ser um número inteiro válido maior ou igual a 18.
-    País (digitado pelo usuário) será validado com switch para aceitar somente:
-        "brasil", "canada", "portugal" (minúsculo mesmo).
-    Se alguma dessas validações falhar, deve mostrar claramente o erro e pedir ao usuário para tentar novamente.
+This mini console application validates user input for name, age, and country.
+- Name must not be blank (uses String.isBlank())
+- Age must be 18 or older
+- Country is validated using a switch statement (only 'brasil', 'canada', or 'portugal' are accepted)
+- If all validations pass, a success message is shown
+- If any validation fails, the corresponding error message is displayed
+This version does not use methods or loops, keeping it simple for the current learning phase.
 
- 2. Que tipo de dados estou lidando? — > String,int
- 3. Ferramentas que vamos usar no Java:
-    Scanner para ler a entrada do usuário
-    Variáveis do tipo int e double
-    Operações matemáticas
-    condicionais if/else, switch
-    chamar metodos do java
-    System.out.printf()
-
-
- 4. Passos em pseudocódigo
-    1- CriarScanner
-
-    2- Exibir mensagem solicitando o nome
-    3- Ler o valor digitado
-    4- Exibir mensagem solicitando idade
-    5- Ler o valor digitado
-    6- Exibir mensagem solicitando pais
-
-    7- criar condicional if/else (string.isBlank, idade = 18)
-        7.1 criar switch para aceitar somente "brasil", "canada", "portugal" (minúsculo mesmo).
-       Se algumas das validacoes falhar, o usuario tenta novamente
-
-    8- Exibir o resultado final das condicoes com formatacoes corretas
 */
 public class UserRegistrationValidator {
     public static void main(String[] args) {

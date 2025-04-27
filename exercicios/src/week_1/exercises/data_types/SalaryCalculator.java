@@ -2,7 +2,7 @@ package week_1.exercises.data_types;
 
 import java.util.Scanner;
 
-public class Ex003_Calculadora {
+public class SalaryCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

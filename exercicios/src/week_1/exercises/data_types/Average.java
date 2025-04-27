@@ -21,7 +21,7 @@ import java.util.Scanner;
         media = (valor1 + valor2 + valor3) / N
     7- Exibir o resultado final das operacoes.
 */
-public class Ex006_Media1 {
+public class Average {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

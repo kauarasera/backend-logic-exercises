@@ -31,7 +31,7 @@ import java.util.Scanner;
         For the salary, there should also be a space after the U$.
 */
 
-public class Ex007_Salary {
+public class Salary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

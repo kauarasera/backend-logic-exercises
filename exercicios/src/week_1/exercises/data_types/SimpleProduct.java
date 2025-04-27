@@ -21,7 +21,7 @@ import java.util.Scanner;
     7- Exibir o resultado final das operacoes.
  */
 
-public class Ex005_ProdutoSimples {
+public class SimpleProduct {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro valor: ");

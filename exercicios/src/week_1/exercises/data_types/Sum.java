@@ -13,7 +13,7 @@ Se tem CNH (responder com "sim" ou "não")
 
 */
 
-public class Ex001_Soma {
+public class Sum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -24,7 +24,7 @@ package week_1.exercises.data_types;
 
 import java.util.Scanner;
 
-public class Ex004_SomaDasOperacoes {
+public class SumOfOperations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro numero: ");

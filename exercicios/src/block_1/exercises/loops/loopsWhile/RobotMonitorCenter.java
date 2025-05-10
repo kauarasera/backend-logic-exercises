@@ -2,7 +2,7 @@ package block_1.exercises.loops.loopsWhile;
 
 import java.util.Scanner;
 
-public class MonitorCenterRobotic {
+public class RobotMonitorCenter {
     public static void main(String[] args) {
         //Block 1 -> Find out how many bots are being scanned
         Scanner scanner = new Scanner(System.in);

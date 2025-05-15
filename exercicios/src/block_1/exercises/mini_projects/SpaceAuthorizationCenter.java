@@ -8,7 +8,7 @@ public class SpaceAuthorizationCenter {
 
         String issue = "";
         int checkpoint = 1;
-        String answer = "";
+        String answer;
         boolean isAborted = false;
 
         System.out.println("Enter the name of the ship: ");

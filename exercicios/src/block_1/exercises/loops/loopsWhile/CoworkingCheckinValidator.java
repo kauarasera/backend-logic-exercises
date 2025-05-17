@@ -1,4 +1,4 @@
-package block_1.exercises.mini_projects;
+package block_1.exercises.loops.loopsWhile;
 
 /**
  * 🧪 Exercise: Coworking Check-in Validator

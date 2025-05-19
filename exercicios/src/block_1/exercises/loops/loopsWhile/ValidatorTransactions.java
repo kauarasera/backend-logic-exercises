@@ -1,4 +1,4 @@
-package block_1.exercises.mini_projects;
+package block_1.exercises.loops.loopsWhile;
 
 import java.util.Scanner;
 

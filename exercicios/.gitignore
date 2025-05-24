@@ -1,0 +1,27 @@
+# 🧠 IntelliJ IDEA (JetBrains)
+.idea/
+*.iml
+/shelf/
+/workspace.xml
+
+# 🧪 Build output
+/out/
+*.class
+
+# 🚫 Sistema operacional
+.DS_Store
+Thumbs.db
+
+# 💡 Logs e arquivos temporários
+*.log
+*.tmp
+
+# 📦 Maven e Gradle (se usar futuramente)
+target/
+build/
+
+# ✅ Outros padrões comuns de IDE
+*.swp
+*.bak
+*.orig
+*.rej

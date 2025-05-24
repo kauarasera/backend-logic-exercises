@@ -1,6 +1,33 @@
 package block_1.exercises.loops.doWhile;
 
 import java.util.Scanner;
+/**
+ * 🧪 Exercise: Customer Service Menu Simulator
+ * -------------------------------------------
+ * 📞 Scenario:
+ * Simulate a customer service system for a telecom company.
+ * The system should display a menu with three options and repeat until
+ * the user chooses to exit.
+ *
+ * 📋 Menu options:
+ * 1 - Technical Support
+ * 2 - Billing
+ * 3 - Exit
+ *
+ * 🎯 Rules:
+ * - The program must always display the menu at least once (use do..while).
+ * - If the user chooses option 1 or 2, print a corresponding message.
+ * - If the user chooses option 3, display a closing message and exit.
+ * - If the user enters an invalid option, display an error message.
+ *
+ * ✅ Concepts used:
+ * - do..while loop
+ * - Scanner input
+ * - Integer condition handling
+ * - if / else if / else logic
+ *
+ * 📍 Author: Kauã Rasera
+ */
 
 public class CustomerServiceMenu {
     public static void main(String[] args) {

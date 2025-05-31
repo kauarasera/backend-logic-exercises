@@ -1,3 +1,5 @@
+package block_1.exercises.mini_projects;
+
 import java.util.Scanner;
 
 /**

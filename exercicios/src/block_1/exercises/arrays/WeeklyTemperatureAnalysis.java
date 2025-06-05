@@ -32,36 +32,36 @@ public class WeeklyTemperatureAnalysis {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US); // Para garantir ponto decimal nas médias
 
-        // 1️⃣ Criar o array com 7 temperaturas simuladas (em graus Celsius)
+        // 1️- Criar o array com 7 temperaturas simuladas (em graus Celsius)
         double[] temperatures = {21.5, 23.0, 19.8, 25.2, 20.0, 22.3, 18.9};
 
-        // 2️⃣ Criar variáveis auxiliares
+        // 2️- Criar variáveis auxiliares
         double sum = 0;
         double max = temperatures[0];
         double min = temperatures[0];
 
-        // 3️⃣ Usar um loop for para percorrer o array
+        // 3️- Usar um loop for para percorrer o array
         for (int i = 0; i < temperatures.length; i++) {
             double temp = temperatures[i];
 
-            // 🔄 Acumular a soma das temperaturas
+            // Acumular a soma das temperaturas
             sum += temp;
 
-            // 🔍 Verificar maior temperatura
+            // Verificar maior temperatura
             if (temp > max) {
                 max = temp;
             }
 
-            // 🔍 Verificar menor temperatura
+            // Verificar menor temperatura
             if (temp < min) {
                 min = temp;
             }
         }
 
-        // 4️⃣ Calcular a média
+        // 4️- Calcular a média
         double average = sum / temperatures.length;
 
-        // 5️⃣ Exibir os resultados
+        // 5- Exibir os resultados
         System.out.println("\uD83D\uDCCA  Weekly Temperature Report:");
         System.out.println("\uD83C\uDF21\uFE0F Average: " + average + " °C");
         System.out.println("\uD83D\uDD25 Highest: " + max + " °C");

@@ -3,29 +3,29 @@ package block_1.exercises.arrays;
 import java.util.Locale;
 
 /**
- * 🌡️ TEMPERATURA SEMANAL
- * -----------------------
- * Você está desenvolvendo um sistema simples para um laboratório meteorológico.
- * Seu objetivo é analisar as temperaturas médias registradas durante uma semana.
+ * 🌡️ WEEKLY TEMPERATURE ANALYSIS
+ * -------------------------------
+ * You are developing a simple system for a meteorological lab.
+ * Your goal is to analyze the average temperatures recorded during a week.
  *
- * 🎯 Regras:
- * 1. Crie um array com 7 posições para representar as temperaturas dos dias da semana.
- * 2. Preencha esse array com valores de temperatura (double), simulando os dados.
- * 3. Calcule e mostre:
- *    ✅ A temperatura média da semana
- *    ✅ A maior temperatura registrada
- *    ✅ A menor temperatura registrada
+ * 🎯 Rules:
+ * 1. Create an array with 7 positions to represent the week's daily temperatures.
+ * 2. Fill this array with temperature values (double), simulating the data.
+ * 3. Calculate and display:
+ *    ✅ The average temperature of the week
+ *    ✅ The highest temperature recorded
+ *    ✅ The lowest temperature recorded
  *
- * 🧰 Ferramentas que você deve usar:
+ * 🧰 Tools you must use:
  * - `double[]`
  * - `for` loop
- * - Variáveis auxiliares (ex: `soma`, `maior`, `menor`)
+ * - Auxiliary variables (e.g., `sum`, `highest`, `lowest`)
  *
- * ⚠️ Dica:
- * - Inicie `maior` e `menor` com o primeiro valor do array.
- * - A soma pode começar em 0 e ir acumulando.
+ * ⚠️ Tip:
+ * - Initialize `highest` and `lowest` with the first element of the array.
+ * - Start the `sum` at 0 and accumulate each value.
  *
- * 📍 Autor: Kauã Rasera
+ * 📍 Author: Kauã Rasera
  */
 
 public class WeeklyTemperatureAnalysis {

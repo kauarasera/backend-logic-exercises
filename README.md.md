@@ -1,7 +1,7 @@
 # Backend Training Repository – Logic & OOP in Java
 
 🚀 **Personal Backend Learning Journey**  
-📂 Exercises and mini projects focused on logic, conditionals, loops, and object-oriented programming (OOP) in Java.
+📂 Exercises and mini projects focused on logic, conditionals and loops in Java.
 
 ---
 
@@ -12,7 +12,6 @@ This repository is part of a continuous backend learning journey. It includes:
 - ✅ Programming logic foundations
 - 🔁 Loops and conditional structures
 - 🧠 Problem-solving and small algorithms
-- 🔧 Object-Oriented Programming (OOP) concepts and exercises
 - 📁 Mini projects to apply each topic in real scenarios
 
 Each week brings more structured code, clean practices and meaningful examples.
@@ -24,13 +23,13 @@ Each week brings more structured code, clean practices and meaningful examples.
 ```
 /Semana_1
 ├── anotacoes/         # Notes and summaries
-├── exercicios/        # Logic & OOP exercises (Java)
+├── exercicios/        # Logic exercises (Java)
 │   └── src/           
 ├── mini_projetos/     # Mini projects using what was learned
 └── README.md          # Project documentation
 ```
 
-> Weekly folders might evolve as needed, while keeping a clean and clear structure.
+> Folders can evolve as needed, maintaining a clean and clear structure.
 
 ---
 

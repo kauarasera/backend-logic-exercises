@@ -1,4 +1,4 @@
-# Backend Training Repository – Logic & OOP in Java
+# Backend Training Repository – Logic in Java
 
 🚀 **Personal Backend Learning Journey**  
 📂 Exercises and mini projects focused on logic, conditionals and loops in Java.
